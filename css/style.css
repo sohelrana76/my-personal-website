@@ -1,0 +1,173 @@
+body{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+p{
+    color: dimgrey;
+    font-size: 24px;
+}
+section{
+    height: 700px;
+    padding-bottom: 150px;
+}
+
+/* Header */
+.half-width{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.name-highlight{
+    color: deeppink;
+    
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, deeppink, mediumvioletred);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.header-bg{
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+/* Biography */
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, deeppink, mediumvioletred);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.biography-bg{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    
+}
+#biography-fit{
+    margin-top: 70px !important;
+}
+
+
+
+/* Latest work */
+.latest-work{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+
+h3{
+    text-align: center;
+}
+.work-place{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.work-place img{
+    width: 100%;
+}
+
+/* Client Feedback */
+
+.company-name{
+    font-size: 12px;
+    color: gray;
+}
+
+.single-feedback{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 40%;
+    background-color: white;
+}
+
+#full-remark{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#full-remark1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* Message Bar */
+
+#name-bar input{
+    width: 90%;
+    padding: 5px;
+}
+
+#email-bar input{
+    width: 90%;
+    padding: 5px;
+}
+
+#textarea-bar .text{
+    width: 90%;
+    padding: 5px;
+   
+}
+
+.button_1{
+    height: 38px;
+    background: deeppink;
+    color: white;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.single-message{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 55%;
+    background-color: rgb(15, 15, 31);
+    color: white;
+    
+}
+.single-information{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 55%;
+    background-color: white;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+}
+.footer-text{
+    font-size: 12px;
+}
+
+.footer-bg{
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+}
